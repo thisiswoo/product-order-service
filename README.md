@@ -13,4 +13,4 @@
 
 <!-- Links -->
 [프로잭트 생성]: https://github.com/thisiswoo/product-order-service/tree/1.%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%83%9D%EC%84%B1
-[POJO 상품 등록 기능 구현하기]: 
+[POJO 상품 등록 기능 구현하기]: https://github.com/thisiswoo/product-order-service/tree/2.POJO_%EC%83%81%ED%92%88%EB%93%B1%EB%A1%9D_%EA%B8%B0%EB%8A%A5_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
