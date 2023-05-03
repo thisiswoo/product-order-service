@@ -6,7 +6,7 @@
 3. [스프링부트 테스트로 전환하기]
 
 ## 설명
-- 상품 등록을 `Spring Boot Application`이 아니라 `Java` 클래스로만 동작하도록 우선 개발 해보기
+- `순수 Java POJO`로 된 Product Service를 `Spring Bean`으로 등록해서 `Spring Boot Test`로 변경하기
 
 ## 프로젝트
 - `Java` : `17.0.5 LTS`
