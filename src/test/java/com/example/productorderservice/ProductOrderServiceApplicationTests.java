@@ -7,7 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ProductOrderServiceApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
+    void contextLoads() {}  // spring boot 테스트 잘 작동하는지 확인.
 
 }
