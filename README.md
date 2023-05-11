@@ -27,5 +27,4 @@
 [스프링부트 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/3.%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
 [API 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/4.API_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
 [우아한 ATDD]: https://www.youtube.com/watch?v=ITVpmjM4mUE&t=270
-
-[//]: # ([JPA 적용하기]: )
+[JPA 적용하기]: https://github.com/thisiswoo/product-order-service/tree/5.JPA_%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
