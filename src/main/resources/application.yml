@@ -1,0 +1,12 @@
+spring:
+  # log 색상 넣기
+  output:
+    ansi:
+      enabled: always
+
+  # jpa
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
