@@ -1,5 +1,6 @@
 spring:
-  # log 색상 넣기
+  # 기본 spring application run시 ultimate 버전은 log 색상이 컬러풀하게 나온다.
+  # 하지만, test 코드에서는 적용이 안되어 아래 코드처럼 설정해줘야 log 색상이 적용 된다.
   output:
     ansi:
       enabled: always
