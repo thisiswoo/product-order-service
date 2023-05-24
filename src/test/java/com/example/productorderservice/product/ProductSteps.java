@@ -34,4 +34,8 @@ public class ProductSteps {// RestAssured의 문제점.
                 .then().log().all()
                 .extract();
     }
+
+    public static UpdateProductRequest 상품수정요청_생성() {
+        return new UpdateProductRequest("상품 수정", 2000, DiscountPolicy.NONE);
+    }
 }
