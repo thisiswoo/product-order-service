@@ -41,14 +41,12 @@ class OderServiceTest {
         // given
         final Long productId = 1L;
         final int quantity = 2;
-        final CreateOrderRequest request = new CreateOrderRequest(productId, quantity);
 
         // when
-        orderService.createOrder(request);
-
+        final CreateOrderRequest request = new CreateOrderRequest(productId, quantity);
 
         // then
-
+        orderService.createOrder(request);
     }
 
     private class OrderService {

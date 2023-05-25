@@ -11,9 +11,10 @@
 8. [POJO 상품 수정 기능 구현하기]
 9. [POJO 상품 수정 기능 스프링부트 테스트로 전환하기]
 10. [스프링부트 API 테스트로 전환하기]
+11. [POJO 상품 주문 기능 구현하기]
 
 ## 설명
-- `SpringBoot`로 만든 상품 수정 기능을 사용자가 `http` 요청으로 수정할 정보를 전달해 주었을 때 실제로 등록된 상품을 조회하고 수정하고, `ok` `200` 응답 코드를 반환해 주는 `API`를 만들기
+- 상품 `domain`을 가지고 상품을 등록하고, 등록한 상품을 주문하는 기능을 만들기.
 
 ## 프로젝트
 - `Java` : `17.0.5 LTS`
@@ -31,3 +32,4 @@
 [POJO 상품 수정 기능 구현하기]: https://github.com/thisiswoo/product-order-service/tree/8.POJO_%EC%83%81%ED%92%88_%EC%88%98%EC%A0%95_%EA%B8%B0%EB%8A%A5_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
 [POJO 상품 수정 기능 스프링부트 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/9.POJO%EC%83%81%ED%92%88%EC%88%98%EC%A0%95%EA%B8%B0%EB%8A%A5_%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
 [스프링부트 API 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/10.%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_API_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
+[POJO 상품 주문 기능 구현하기]: https://github.com/thisiswoo/product-order-service/tree/11.POJO_%EC%83%81%ED%92%88_%EC%A3%BC%EB%AC%B8_%EA%B8%B0%EB%8A%A5_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
