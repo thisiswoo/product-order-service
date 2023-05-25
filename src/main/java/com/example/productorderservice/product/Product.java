@@ -10,6 +10,7 @@ import org.springframework.util.Assert;
 @Getter
 @Table(name = "products")
 @Entity
+public
 class Product {
 
     @Id
