@@ -19,8 +19,31 @@ public class ProductTest {
         // then
         assertThat(product.getName()).isEqualTo("상품 수정");
         assertThat(product.getPrice()).isEqualTo(2000);
+    }
 
+    @DisplayName("none_discounted_product")
+    @Test
+    void none_discounted_product() throws Exception {
+        // given
+        final Product product = new Product("상품명", 1000, DiscountPolicy.NONE);
 
+        // when
+        final int discountPrice = product.getDiscountedPrice();
 
+        // then
+        assertThat(discountPrice).isEqualTo(1000);
+    }
+
+    @DisplayName("fix_1000_discounted_product")
+    @Test
+    void fix_1000_discounted_product() throws Exception {
+        // given
+        final Product product = new Product("상품명", 1000, DiscountPolicy.FIX_1000_AMOUNT);
+
+        // when
+        final int discountPrice = product.getDiscountedPrice();
+
+        // then
+        assertThat(discountPrice).isEqualTo(0);
     }
 }
