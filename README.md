@@ -17,9 +17,10 @@
 14. [API로 만든 상품 주문을 JPA로 적용하기]
 15. [POJO 주문 결제 기능 구현하기]
 16. [주문결제 스프링부트 테스트로 전환하기]
+17. [주문결제 API 테스트로 전환하기]
 
 ## 설명
-- 순수 `Java`로 만들었던 `주문결제` 시스템을 `Spring Bean`으로 등록해서 `SpringBoot` 테스트를 만들어 보기.
+- `주문결제` 시스템을 `SpringBoot` 테스트에서 `API` 테스트로 전환하기.
 
 ## 프로젝트
 - `Java` : `17.0.5 LTS`
@@ -43,3 +44,4 @@
 [API로 만든 상품 주문을 JPA로 적용하기]: https://github.com/thisiswoo/product-order-service/tree/14.API%EB%A1%9C_%EB%A7%8C%EB%93%A0_%EC%83%81%ED%92%88_%EC%A3%BC%EB%AC%B8%EC%9D%84_JPA%EB%A1%9C_%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
 [POJO 주문 결제 기능 구현하기]: https://github.com/thisiswoo/product-order-service/tree/15.POJO_%EC%A3%BC%EB%AC%B8_%EA%B2%B0%EC%A0%9C_%EA%B8%B0%EB%8A%A5_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
 [주문결제 스프링부트 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/16.%EC%A3%BC%EB%AC%B8%EA%B2%B0%EC%A0%9C_%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
+[주문결제 API 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/17.%EC%A3%BC%EB%AC%B8%EA%B2%B0%EC%A0%9C_API_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
