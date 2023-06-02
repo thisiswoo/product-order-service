@@ -1,6 +1,6 @@
-package com.example.productorderservice.payment;
+package com.example.productorderservice.payment.domain;
 
-import com.example.productorderservice.order.Order;
+import com.example.productorderservice.order.domain.Order;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,6 +10,7 @@ import org.springframework.util.Assert;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+public
 class Payment {
 
     @Id

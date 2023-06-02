@@ -1,9 +1,9 @@
 package com.example.productorderservice.product;
 
+import com.example.productorderservice.product.domain.DiscountPolicy;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 
 class DiscountPolicyTest {
