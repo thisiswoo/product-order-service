@@ -19,9 +19,10 @@
 16. [주문결제 스프링부트 테스트로 전환하기]
 17. [주문결제 API 테스트로 전환하기]
 18. [주문결제 JPA 적용하기]
+19. [상세 패키지 구조 만들기]
 
 ## 설명
-- 사용자가 `http(API)` 요청을 통해서 주문결제 요청이 들어오면 결제 내용을 `JPA`를 사용하여 `H2` Database에 저장하도록 구현하기.
+- 상품 주문 등록 서비스의 패키지 세분화하여 나누기.
 
 ## 프로젝트
 - `Java` : `17.0.5 LTS`
@@ -47,3 +48,4 @@
 [주문결제 스프링부트 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/16.%EC%A3%BC%EB%AC%B8%EA%B2%B0%EC%A0%9C_%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
 [주문결제 API 테스트로 전환하기]: https://github.com/thisiswoo/product-order-service/tree/17.%EC%A3%BC%EB%AC%B8%EA%B2%B0%EC%A0%9C_API_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A1%9C_%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0
 [주문결제 JPA 적용하기]: https://github.com/thisiswoo/product-order-service/tree/18.%EC%A3%BC%EB%AC%B8%EA%B2%B0%EC%A0%9C_JPA_%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+[상세 패키지 구조 만들기]: https://github.com/thisiswoo/product-order-service/tree/19.%EC%83%81%EC%84%B8_%ED%8C%A8%ED%82%A4%EC%A7%80_%EA%B5%AC%EC%A1%B0_%EB%A7%8C%EB%93%A4%EA%B8%B0
